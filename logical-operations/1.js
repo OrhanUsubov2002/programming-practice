@@ -1,5 +1,5 @@
-const Num = 4; 
-if (Num>0 && Num<5) {
+const testNumber = 4; 
+if (testNumber>0 && testNumber<5) {
     alert("Верно"); 
 }else {
     alert("Неверно"); 

@@ -1,5 +1,5 @@
 
-const browser =prompt("Write your browser"); 
+const browser = prompt("Write your browser"); 
 if (browser === 'Edge') {
     alert( "You've got the Edge!" );
 } else if (browser === 'Chrome'|| browser === 'Firefox'|| browser === 'Safari'|| browser ==='Opera') {

@@ -1,13 +1,13 @@
-let number = prompt("Введите свой возраст");
-if (number<16) {
+let number = +prompt("Введите свой возраст");
+if (number < 18) {
     alert("Дитя");
-} 
-if (number<18) {
+} else if (number > 18) {
     alert("Подросток");
-} 
-if (number>18 && number<=45 ) {
+} else if (number < 45 ) {
     alert("Взрослый");
-} 
-if (number>45 && number<90) {
+} else if (number < 90) {
     alert("Старик");
-}
+} 
+
+
+
