@@ -3,10 +3,10 @@
 
 
 
-function calculateFunction () {
-    let valuesA = +prompt("Введите значения a");
-    let result = (3 * valuesA) ** 2 + 5 * valuesA - 21
-    return result;
-}
+// function calculateFunction () {
+//     let valuesA = +prompt("Введите значения a");
+//     let result = (3 * valuesA) ** 2 + 5 * valuesA - 21
+//     return result;
+// }
 
-alert(calculateFunction());
+// alert(calculateFunction());
