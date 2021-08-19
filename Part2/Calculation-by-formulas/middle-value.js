@@ -26,17 +26,18 @@
 
 //Вариант 2. 
 
-function getNumber(firstValue , secondValue) {
-  firstValue = +prompt("Внесите первое число");
-  secondValue = +prompt("Внесите второе число");
-  return firstValue , secondValue; 
-}
+// function getNumber(firstValue , secondValue) {
+//   firstValue = +prompt("Внесите первое число");
+//   secondValue = +prompt("Внесите второе число");
+//   return firstValue , secondValue; 
+// }
 
-function Calc(number1) {
-    number1 = getNumber(); 
-    alert(number1); 
-}
-Calc(); 
+
+// function Calc(number1) {
+//     number1 = getNumber(); 
+//     alert(number1); 
+// }
+// Calc(); 
 
 
 
