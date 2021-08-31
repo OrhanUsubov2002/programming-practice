@@ -3,14 +3,13 @@
 
 
 // function ask(question, yes, no) {   // //Вариант1
-//     if (confirm(question)) yes()
-//     else no();
-//   }
+//     confirm(question) ? yes() : no();
+// }
   
 //   ask(
 //     "Вы согласны?",
-//     () => { alert("Вы согласились."); },
-//     () => { alert("Вы отменили выполнение."); }
+//     () => alert("Вы согласились."),
+//     () => alert("Вы отменили выполнение.")
 //   );
 
 
@@ -25,13 +24,13 @@
 // ask(qstn , yes , no); 
 
 
-// function ask(question = "Вы согласны?" ) {  //Вариант3
-//   if (confirm(question)) {
-//   let yes = () => alert("Вы согласились.");
-//   return yes();
-//   } else {
-//   let no = () => alert("Вы отменили выполнение.");
-//   return no();
-//   } 
-// }
-// ask(); 
+function ask(question = "Вы согласны?") {  //Вариант3
+  if (confirm(question)) {
+    alert("Вы согласились.");
+  } else {
+    alert("Вы отменили выполнение.");
+  } 
+}
+
+ask(); 
+ask('Are you okey?');

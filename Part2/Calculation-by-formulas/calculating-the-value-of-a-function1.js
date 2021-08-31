@@ -3,11 +3,11 @@
 
 
 
-// function calculateFunction () {
-//     let valuesX = +prompt("Введите значения x");
-//     let result = 17 * (valuesX ** 2) - 6 * valuesX + 13 ; 
-//     return result;
-// }
+function calculateFunction () {
+    let valuesX = +prompt("Введите значения x");
+    let result = 17 * (valuesX ** 2) - 6 * valuesX + 13 ; 
+    return result;
+}
 
   
-// alert(calculateFunction());  
+alert(calculateFunction());  

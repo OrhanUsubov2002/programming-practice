@@ -1,21 +1,32 @@
 // Напишите функцию pow(x,n), которая возвращает x в степени n.
 //  Иначе говоря, умножает x на себя n раз и возвращает результат.
+    //Solid
+    // Function Scope:
+    // - parameters
+    // - internal variables
+    // - reference to outer scope
 
+function getTwoNumber() {
+  const value = +prompt("Введите число x");
+  const degree = +prompt("Введите степень n");
 
-// function getTwoNumber(value , degree) {
-//   number1 = +prompt("Введите число x");
-//   number2 = +prompt("Введите степень n");
+  let result = 1; 
 
-//   let result = 1; 
+  for (let a = 0; a < degree; a++) {
+    result *= value; 
+  }
 
-//   for (let a = 0; a < number2; a++) {
-//     result = result * number1; 
-//   }
-//   return result;   
-// }
+  return result;   
+}
 
-// function showPow(res) {
-//   res = getTwoNumber();
-//   alert(res);  
-// }
-// showPow(); 
+const variable = 'bla bla bla';
+
+function showPow() {
+  const res = getTwoNumber();
+
+  console.log(variable);
+
+  alert(res);  
+}
+
+showPow(); 

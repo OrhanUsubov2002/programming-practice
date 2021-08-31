@@ -6,38 +6,46 @@
 
 //Вариант 1. 
 
-// //Среднее арифметическое
-// let average = function(firstValue , secondValue) {
-//     firstValue = +prompt("Внесите первое число");
-//     secondValue = +prompt("Внесите второе число");
-//     return (firstValue + secondValue) / 2
-// }; 
+//Среднее арифметическое
+let average = function(firstValue , secondValue) {
+    firstValue = +prompt("Внесите первое число");
+    secondValue = +prompt("Внесите второе число");
 
-// alert("Среднее арифметическое" + average()); 
+    return (firstValue + secondValue) / 2
+}; 
 
-// //Среднее геометрическое 
-// let average = function(firstValue , secondValue) {
-//     firstValue = +prompt("Внесите первое число");
-//     secondValue = +prompt("Внесите второе число");
-//     let result = firstValue * secondValue; 
-//     return Math.sqrt(result); 
-// }; 
-// alert("Среднее геометрическое" + average()); 
+alert("Среднее арифметическое" + average()); 
+
+//Среднее геометрическое 
+let average = function(firstValue , secondValue) {
+    firstValue = +prompt("Внесите первое число");
+    secondValue = +prompt("Внесите второе число");
+    let result = firstValue * secondValue; 
+    return Math.sqrt(result); 
+}; 
+alert("Среднее геометрическое" + average()); 
 
 //Вариант 2. 
 
-// function getNumber(firstValue , secondValue) {
-//   firstValue = +prompt("Внесите первое число");
-//   secondValue = +prompt("Внесите второе число");
-//   return firstValue , secondValue; 
-// }
+function getNumber(firstValue , secondValue) {
+  firstValue = +prompt("Внесите первое число");
+  secondValue = +prompt("Внесите второе число");
+
+  return {
+        firstValue: firstValue,
+        secondValue: secondValue
+    }; 
+}
 
 
-// function Calc(number1) {
-//     number1 = getNumber(); 
-//     alert(number1); 
-// }
-// Calc(); 
+function calc() {
+    const result = getNumber();
+    
+    alert(result.firstValue); 
+    alert(result.secondValue); 
+}
+
+calc(); 
 
 
 
